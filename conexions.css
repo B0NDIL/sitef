@@ -1,0 +1,64 @@
+
+  body {
+    background-color: bisque;
+    font-family: 'Pinyon Script';
+}
+h1{
+    color: #38940e;
+
+}
+ 
+#formumlaire{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    position: relative;
+    top: 100px;
+    margin-left: 800px;
+    width:200px;
+    height: 700px;
+    padding: 30px;
+    border: 10px solid #99030C;
+    background: rgb(255, 255, 255);
+    box-shadow: 20px 15px 15px  rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);}
+
+  .formulaire {
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #38940e;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+  }
+  div input {
+    margin-right: 10px;
+  }
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  form textarea {
+    padding: 10px;
+    margin-bottom: 5px;
+    size: 100px;
+  }
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #adresses{
+    white-space: nowrap;
+}
+    
+  
+

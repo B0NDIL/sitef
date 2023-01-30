@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Pinyon Script' rel='stylesheet'>
+    <link rel="stylesheet" href="conexions.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulaire d'inscription</h1>
+
+        <form id="formumlaire" name="RegForm" action="/submit.php" onsubmit="return formulaire()" method="post" class="formulaire">
+            <div>
+                <label for="Nom">Nom:</label>
+                <input type="text" id="Nom"  name="Nom" />
+            </div>
+            <br />
+            <div>
+                <label for="adresse" >Adresse:</label>
+                <input type="text" id="adresse"  name="Adresse" />
+            </div>
+            <br />
+            <div>
+                <label for="E-mail" id="adresses">Adresse mail:</label>
+                <input type="text" id="E-mail" name="Email" />
+            </div>
+            <br />
+            <div></div>
+                <label for="Mot de passe">Mot de passe:</label>
+                <input type="text" id="Mot de passe"  name="Mot de passe" />
+            </div>
+            <br />
+            <div>
+                <label for="Téléphone">Téléphone: </label>
+                <input type="text" id="Téléphone"  name="Téléphone" />
+            </div>
+            <br />
+
+            <br />
+            <div class="buttons">
+                <input type="submit" value="Envoyer" name="Envoyer" href="file:///C:/Users/labor/Desktop/formation/Projet%20site%20restaut%20italien/Page%20du%20site.html" />
+                <input type="reset" value="Rénit" name="Reset" />
+            </div>
+        </form>
+    <script src="connexions.js"></script> 
+</body>
+</html>
